@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className = "footer-container">
         <div className= "footerleft">
-                <img src={""} alt="k" ></img>
+                <img src={"img5.png"} style={{height:"2rem",width:"2rem"}} alt="k" ></img>
                 <p style={{fontSize:"1.5rem",fontWeight:"800",color:"purple"}}>CODE8estate</p>
         </div>
         <div className="f-cent">
