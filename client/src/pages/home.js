@@ -3,6 +3,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import Footer from "../components/footer";
 const Home = () => {
   const currentUser = useSelector((state) => state.users.currentUser);
   const [data, setData] = useState([]);
@@ -112,6 +113,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

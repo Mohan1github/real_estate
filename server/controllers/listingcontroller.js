@@ -12,7 +12,7 @@ const createlisting = async (req, res) => {
       } else {
         const newlist = new Listing({
           name: data.name,
-          description: data.description,
+          description: data.description, 
           address: data.address,
           regularPrice: data.regularPrice,
           bedrooms: data.bedrooms,
